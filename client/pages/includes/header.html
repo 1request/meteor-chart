@@ -1,0 +1,60 @@
+<template name="header">
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#sidebar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="{{pathFor 'activities'}}">
+          <img src="img/logo.png" alt="logo" width="79" height="26">
+        </a>
+      </div>
+      <div class="navbar-center">Dashboard</div>
+      <div class="navbar-collapse collapse">
+        <!-- BEGIN TOP NAVIGATION MENU -->
+        <ul class="nav navbar-nav pull-right header-menu">
+          <!-- BEGIN USER DROPDOWN -->
+          <li class="dropdown" id="user-header">
+              <a href="#" class="dropdown-toggle c-white" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                  <img src="img/avatars/avatar2.png" alt="user avatar" width="30" class="p-r-5">
+                  <span class="username">Bob Nilson</span>
+                  <i class="fa fa-angle-down p-r-10"></i>
+              </a>
+              <ul class="dropdown-menu">
+                  <li>
+                      <a href="extra_profile.html">
+                          <i class="glyph-icon flaticon-account"></i> My Profile
+                      </a>
+                  </li>
+                  <li>
+                      <a href="calendar.html">
+                          <i class="glyph-icon flaticon-calendar"></i> My Calendar
+                      </a>
+                  </li>
+                  <li>
+                      <a href="calendar.html">
+                          <i class="glyph-icon flaticon-settings21"></i> Account Settings
+                      </a>
+                  </li>
+                  <li class="dropdown-footer clearfix">
+                    <a href="javascript:;" class="toggle_fullscreen" title="Fullscreen">
+                      <i class="glyph-icon flaticon-fullscreen3"></i>
+                    </a>
+                    <a href="lockscreen.html" title="Lock Screen">
+                      <i class="glyph-icon flaticon-padlock23"></i>
+                    </a>
+                    <a href="login.html" title="Logout">
+                      <i class="fa fa-power-off"></i>
+                    </a>
+                  </li>
+              </ul>
+          </li>
+        </ul>
+        <!-- END TOP NAVIGATION MENU -->
+      </div>
+    </div>
+  </nav>
+</template>

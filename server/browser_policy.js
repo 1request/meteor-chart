@@ -12,7 +12,7 @@ BrowserPolicy.framing.disallow();
 
 //BrowserPolicy.content.allowInlineScripts();
 BrowserPolicy.content.disallowInlineScripts();
-//BrowserPolicy.content.allowEval();
+BrowserPolicy.content.allowEval();
 //BrowserPolicy.content.disallowEval(); // default
 //BrowserPolicy.content.allowInlineStyles() // default
 //BrowserPolicy.content.disallowInlineStyles();

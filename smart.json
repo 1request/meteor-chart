@@ -1,7 +1,10 @@
 {
   "packages": {
     "iron-router": {},
-    "blaze-layout": {}
+    "blaze-layout": {},
+    "modernizr-meteor": {},
+    "less-bootstrap-3": {},
+    "moment": {},
+    "spin": {}
   }
 }
-

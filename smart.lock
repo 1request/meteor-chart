@@ -3,7 +3,11 @@
   "dependencies": {
     "basePackages": {
       "iron-router": {},
-      "blaze-layout": {}
+      "blaze-layout": {},
+      "modernizr-meteor": {},
+      "less-bootstrap-3": {},
+      "moment": {},
+      "spin": {}
     },
     "packages": {
       "iron-router": {
@@ -15,6 +19,26 @@
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.5",
         "commit": "273e3ab7d005d91a1a59c71bd224533b4dae2fbd"
+      },
+      "modernizr-meteor": {
+        "git": "https://github.com/ckir/modernizr-meteor.git",
+        "tag": "v2.6.2",
+        "commit": "391ca2a3beff3cd2b0e1099cb2d744b5a2e8a73e"
+      },
+      "less-bootstrap-3": {
+        "git": "https://github.com/DerMambo/less-bootstrap-3.git",
+        "tag": "v0.0.1",
+        "commit": "1321ac0ebc809bc354186b96f4c28b7042e38507"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.6.0",
+        "commit": "26156df681750fd6e6ed77043eef32b6653ebbdf"
+      },
+      "spin": {
+        "git": "https://github.com/SachaG/meteor-spin.git",
+        "tag": "v0.2.2",
+        "commit": "3f655f0016228e4195acc784c45d3e3a247dc39f"
       }
     }
   }
