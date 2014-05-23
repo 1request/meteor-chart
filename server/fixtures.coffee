@@ -1,6 +1,6 @@
 if Activities.find().count() is 0
-  lastMonth = new Date()
-  lastMonth.setDate(lastMonth.getDate() - 7)
+  lastWeek = new Date()
+  lastWeek.setDate(lastWeek.getDate() - 7)
   randomDate = (start, end) ->
     new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()))
 
@@ -11,7 +11,7 @@ if Activities.find().count() is 0
     "strength": "0.5"
     "username": "harryng"
 
-  for i in [1..300]
-    date = randomDate(lastMonth, new Date((new Date()).setHours(0,0,0,0)))
+  for i in [1..500]
+    date = randomDate lastWeek, new Date()
     basic.time = date.getTime()
     Activities.insert basic
