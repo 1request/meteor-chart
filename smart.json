@@ -5,6 +5,7 @@
     "modernizr-meteor": {},
     "less-bootstrap-3": {},
     "moment": {},
-    "spin": {}
+    "spin": {},
+    "collection-api": {}
   }
 }
