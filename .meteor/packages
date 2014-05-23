@@ -14,3 +14,4 @@ jquery
 moment
 spin
 collection-api
+collection-hooks

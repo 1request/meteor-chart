@@ -8,3 +8,5 @@ Router.configure
 
 Router.map ->
   @route 'activities', { path: '/' }
+
+Router.onBeforeAction 'loading'
