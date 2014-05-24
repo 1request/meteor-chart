@@ -1,3 +1,5 @@
 Meteor.publish 'activities', (options) ->
-  console.log 'options', options
   Activities.find options
+
+Meteor.publish 'dailyResults', (options) ->
+  DailyResults.find options

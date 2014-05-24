@@ -2,9 +2,9 @@ Router.configure
   layoutTemplate: 'layout'
   loadingTemplate: 'loading'
   waitOn: ->
-    Meteor.subscribe 'activities',
+    Meteor.subscribe 'dailyResults',
       time:
-        $gt: (new Date()).setMonth((new Date()).getMonth() - 1)
+        $gt: moment().startOf('month').valueOf()
 
 Router.map ->
   @route 'activities', { path: '/' }

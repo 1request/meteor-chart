@@ -1,0 +1,1 @@
+@HourlyResults = new Meteor.Collection 'hourlyResults'
